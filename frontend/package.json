@@ -1,0 +1,38 @@
+{
+  "name": "fingerprint-system-frontend",
+  "version": "1.0.0",
+  "description": "指纹门禁系统前端",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "fingerprint",
+    "access-control",
+    "react",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "@ant-design/icons": "^6.0.0",
+    "@tanstack/react-query": "^5.76.1",
+    "antd": "^5.25.2",
+    "axios": "^1.9.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0",
+    "zustand": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.19",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react-swc": "^3.9.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

@@ -21,8 +21,10 @@ OpenPrint Lock 是一个开源的指纹锁，理论上可以运行在任何支�
 电脑连接开发版，选择开发版串口，将代码上传到 MicroPython 中。  
 重启开发版，去路由器看看开发版的 IP 地址，然后 curl 一下看看是否正常。
 ## 使用
+已经部署了现成的，[OpenPrint Lock](http://openprint-lock.cli.tf/)，可以直接使用。  
+由于浏览器限制，如果后端没有https，前端也需要使用http协议。  
 在前端的系统设置中配置连接信息。  
-如果需要自行部署开发前端  
+如果需要自行部署开发前端:  
 开发服务器  
 ```bash
 pnpm run dev

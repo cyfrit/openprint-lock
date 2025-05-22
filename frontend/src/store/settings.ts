@@ -7,7 +7,7 @@ const useSettingsStore = create<SettingsState>()(
   persist(
     (set) => ({
       baseUrl: 'http://localhost:80', // 默认基础URL
-      token: 'fingerprint_system_token_2025_secure', // 默认令牌
+      token: '', // 默认令牌
       isDarkMode: false, // 默认浅色模式
       
       // 设置基础URL
@@ -22,7 +22,7 @@ const useSettingsStore = create<SettingsState>()(
       // 重置所有设置为默认值
       reset: () => set({
         baseUrl: 'http://localhost:80',
-        token: 'fingerprint_system_token_2025_secure',
+        token: '',
         isDarkMode: false,
       }),
     }),

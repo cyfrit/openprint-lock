@@ -28,7 +28,7 @@ const SettingsForm: React.FC = () => {
     reset();
     form.setFieldsValue({
       baseUrl: 'http://localhost:80',
-      token: 'fingerprint_system_token_2025_secure',
+      token: '',
     });
   };
   

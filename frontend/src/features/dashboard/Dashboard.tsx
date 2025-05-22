@@ -22,7 +22,7 @@ const Dashboard: React.FC = () => {
       
       <Alert 
         message="请确保已正确设置系统基础URL和认证令牌" 
-        description="点击右上角的系统设置按钮可以配置连接参数。默认令牌: fingerprint_system_token_2025_secure" 
+        description="点击右上角的系统设置按钮可以配置连接参数。" 
         type="info" 
         showIcon 
         style={{ marginBottom: 24 }}

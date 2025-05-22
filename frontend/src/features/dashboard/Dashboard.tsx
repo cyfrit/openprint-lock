@@ -18,7 +18,7 @@ const Dashboard: React.FC = () => {
   return (
     <div>
       <Title level={2}>指纹门禁系统控制面板</Title>
-      <Paragraph>欢迎使用ESP32-C3指纹门禁系统。通过此控制面板，您可以管理指纹、控制门锁、监控系统状态以及查看日志。</Paragraph>
+      <Paragraph>欢迎使用指纹门禁系统。通过此控制面板，您可以管理指纹、控制门锁、监控系统状态以及查看日志。</Paragraph>
       
       <Alert 
         message="请确保已正确设置系统基础URL和认证令牌" 
@@ -141,7 +141,7 @@ const Dashboard: React.FC = () => {
       <div style={{ marginTop: 48 }}>
         <Title level={4}>系统信息</Title>
         <Paragraph>
-          本系统基于ESP32-C3微控制器开发，提供指纹识别、门禁控制和日志记录功能。
+          本系统提供指纹识别、门禁控制和日志记录功能。
           通过RESTful API接口，可以实现远程管理和控制。
         </Paragraph>
         <Paragraph>

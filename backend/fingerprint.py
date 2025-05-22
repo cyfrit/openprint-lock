@@ -30,7 +30,7 @@ PID_ACK = 0x07
 class Fingerprint:
     def __init__(self):
         # Configure UART
-        # Ensure TX_PIN and RX_PIN are correctly set in config.py for your ESP32-C3 board
+        # Ensure TX_PIN and RX_PIN are correctly set in config.py
         # UART is initialized with TIMEOUT_MS for read operations.
         self.uart = machine.UART(UART_ID, baudrate=BAUD_RATE, tx=TX_PIN, rx=RX_PIN, timeout=TIMEOUT_MS)
         self.device_addr = DEVICE_ADDR

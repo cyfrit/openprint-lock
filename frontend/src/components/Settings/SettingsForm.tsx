@@ -59,7 +59,7 @@ const SettingsForm: React.FC = () => {
             { required: true, message: '请输入基础URL' },
             { type: 'url', message: '请输入有效的URL格式' }
           ]}
-          tooltip="指纹系统API的基础URL，格式为: http://<ESP32_IP_ADDRESS>:<API_PORT>"
+          tooltip="指纹系统API的基础URL，格式为: http://<IP_ADDRESS>:<API_PORT>"
         >
           <Input 
             prefix={<LinkOutlined />} 

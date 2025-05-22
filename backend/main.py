@@ -1,6 +1,6 @@
 # main.py
 """
-Main application entry point for the ESP32-C3 Fingerprint Access System.
+Main application entry point for the Fingerprint Access System.
 Initializes components, starts the raw socket web server, 
 and manages the fingerprint monitoring loop.
 """
